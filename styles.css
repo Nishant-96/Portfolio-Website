@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #7c3AED;
+    --primary-color: #312E81;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
 }
@@ -64,10 +64,11 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
 }
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight:500;
     font-size: 1.1rem;
 }
 
@@ -128,7 +129,8 @@ hr{
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
 }
 
 .footer .link{
