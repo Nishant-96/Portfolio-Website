@@ -8,11 +8,20 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: auto;
+}
+
+p {
+    padding-bottom: 0.5rem;
 }
 
 hr{
-    margin: 2rem 0rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    background-color: var(--off-white);
+    max-width: 300px;
+    height: 1px;
+    border: none;
 }
 
 /** container **/
@@ -23,7 +32,7 @@ hr{
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
 }
 
@@ -31,8 +40,7 @@ hr{
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
+    margin-right:1rem;
 }
 
 .link-primary{
@@ -89,7 +97,7 @@ hr{
 
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .hero .hero-img {
